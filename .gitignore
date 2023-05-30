@@ -1,0 +1,44 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Next.js build output
+/.next/
+
+# Environment variables
+.env
+
+# npm package manager lock file
+package-lock.json
+
+# yarn lock file
+yarn.lock
+
+# Production build
+/build/
+/cache/
+/artifacts/
+
+# Logs
+*.log
+
+# macOS files to ignore
+.DS_Store
+
+# IDE files to ignore
+.vscode/
+.idea/
+
+# Node.js dependencies
+/node_modules/
+
+# Output of tests
+/coverage/
+
+# Output of static code analysis
+/.eslintcache
+
+# Miscellaneous files
+*.bak
+*.swp
+*.tmp
+*.zip
+*.tar.gz
